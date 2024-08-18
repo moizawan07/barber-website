@@ -264,6 +264,7 @@ padding: 5px;
 
   .logo{
     width: 20%;
+    background-color: aliceblue;
   }
 
   .logo img{
@@ -277,7 +278,7 @@ padding: 5px;
   .items ul li{
     font-size: 13px;
     background-color: transparent;
-    margin: 30px 11px;
+    margin: 30px 11px 0px 0px;
   }
 
 .image {
@@ -341,5 +342,16 @@ padding: 5px;
   font-size: 8px;
 }
 
+.map{
+  background-color: red;
+  width: 80%;
+  margin-top: 100px;
+  border: 1px solid blac;
+  margin-left: 5%;
+}
+
+.map iframe{
+  width: 100%;
+}
 
 }

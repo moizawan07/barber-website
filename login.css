@@ -80,11 +80,11 @@
     padding: 10px;
 }
 
-.down-text input{
+/* .down-text input{
     height: 35px;
     padding: 5px;
     margin-top: 10px;
-}
+} */
 
 .robot{
     width: 34.5%;
@@ -93,6 +93,38 @@
     margin: 10px auto;
     border: 1px solid #666565;
     text-align: left;
+}
+
+.input1{
+  width: 34.5%;
+  height: 48px;
+  margin: 10px auto;
+  border-radius: 2px;
+  border: 1px solid #666565;
+    text-align: left;
+}
+
+.input1 input{
+  border: none;
+  width: 95%;
+  height: 45px;
+  padding: 0px 0px 0px 5px;
+}
+
+.input2{
+  width: 34.5%;
+  height: 48px;
+  margin: auto;
+  border-radius: 2px;
+  border: 1px solid #666565;
+    text-align: left;
+}
+
+.input2 input{
+  border: none;
+  width: 95%;
+  height: 45px;
+  padding: 0px 0px 0px 5px;
 }
 
 .robot input{
@@ -221,6 +253,7 @@
     
       .logo{
         width: 20%;
+        background-color: aliceblue;
       }
     
       .logo img{
@@ -234,7 +267,7 @@
       .items ul li{
         font-size: 13px;
         background-color: transparent;
-        margin: 30px 11px;
+        margin: 30px 11px 0px 0px;
     }
 
     .maindiv{
@@ -242,13 +275,28 @@
     }
 
     .robot{
+      background-color: re;
         width: 92%;
         height: 48px;
 }
 
+
+.input1{
+  width: 92%;
+  height: 48px;
+}
+
+.input2{
+  width: 92%;
+  height: 48px;
+}
+
+
+
 .one{
     margin-top: 10px;
     width: 84.5%;
+    background-color: re;
 }
 .one button{
     margin-top: 20px;

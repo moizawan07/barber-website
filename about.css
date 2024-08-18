@@ -214,6 +214,7 @@
     
       .logo{
         width: 20%;
+        background-color: aliceblue;
       }
     
       .logo img{
@@ -227,7 +228,7 @@
       .items ul li{
         font-size: 13px;
         background-color: transparent;
-        margin: 30px 11px;
+        margin: 30px 10px 0px 0px;
     }
 
     .text{
