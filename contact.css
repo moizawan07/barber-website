@@ -1,0 +1,345 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.all-page-container{
+  width: 100%;
+}
+
+.navbar {
+  width: 100%;
+  height: 120px;
+  display: flex;
+  /* position: fixed;
+    background-color: white; */
+}
+
+.logo {
+  width: 50%;
+  background-color: re;
+}
+
+.logo img {
+  width: 20%;
+  height: 75%;
+  margin-top: 10px;
+}
+
+.items ul {
+  display: flex;
+}
+
+.items ul li {
+  list-style: none;
+  margin: 35px 20px;
+  font-family: sans-serif;
+  background-color: blue;
+  border-color: blue;
+  width: 100px;
+  height: 30px;
+  text-align: center;
+  align-content: center;
+}
+
+.items ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+.image {
+  width: 100%;
+  height: 600px;
+  background-image: url(https://img.freepik.com/free-photo/man-barbershop-salon-doing-haircut-beard-trim_1303-20945.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.text{
+  background-color: re;
+  width: 40%;
+  margin: auto;
+  position: relative;
+  top: 50%;
+}
+
+.text h1 {
+  text-align: center;
+  font-family: sans-serif;
+  color: white;
+  font-size: 50px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  text-shadow: -2px -2px 5px black;
+}
+
+.text p{
+  color: white;
+  text-align: center;
+  font-size: 13px;
+}
+
+.section2{
+  width: 50%;
+  height: 300px;
+  margin: 100px auto;
+background: rgba(33, 30, 30, 1.05);
+border-radius: px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(5px);
+-webkit-backdrop-filter: blur(5px);
+border: 1px solid rgba(33, 30, 30, 0.3);
+}
+
+.one{
+  width: 85%;
+  background-color: re;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  row-gap: 25px;
+  margin: auto;
+  padding-top: 20px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 13px;
+}
+
+.box1{
+  width: 40%;
+  height: 30px;
+  border-radius: 5px;
+  background-color: black;
+  color: white;
+  text-align: center;
+  align-content: center;
+}
+
+.box2{
+  width: 40%;
+  border-radius: 5px;
+  align-content: center;
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+
+.btn{
+  width: 85%;
+  margin: auto;
+  background-color: re;
+  padding-top: 50px;
+}
+
+.btn button{
+  width: 100%;
+  height: 30px;
+  font-size: 15px;
+  background-color: #E7AD5D;
+  color: white;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  border: none;
+}
+
+.section3{
+  width: 100%;
+  text-align: center;
+  padding-top: 70px;
+}
+
+.textss h2{
+  font-size: 50px;
+  margin: 10px 0px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.textss p{
+font-size: 13px;
+font-family: sans-serif;
+padding: 5px;
+}
+
+.in{
+  padding-top: 40px;
+}
+
+.in input{
+  font-size: 15px;
+  border-color: #E7AD5D;
+  outline: none;
+  margin: 15px 0px;
+  padding: 10px;
+}
+
+.in button{
+  width: 150px;
+  height: 35px;
+  background-color: #E7AD5D;
+  color: white;
+  font-family: sans-serif;
+  border: none;
+  text-align: center;
+  font-size: 16px;
+  align-content: center;
+}
+
+
+.map{
+ width: 30%;
+ margin-top: 100px;
+ border: 1px solid blac;
+ margin-left: 2%;
+ box-shadow: inset -2px -2px 5px black;
+}
+
+.map iframe{
+  border-radius: 10px;
+}
+
+.footer{
+  width: 100%;
+  height: 100px;
+ background-color: black;
+ color: white;
+ margin-top: 80px;
+ padding-top: 10px;
+}
+
+.textssssss{
+  position: relative;
+  top: 10%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.textssssss p{
+  color: white;
+  font-weight: 900;
+  background-color: re;
+ margin-right: 10px;
+  padding: 2px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+
+.fa-solid.fa-phone{
+  font-size: 25px;
+  color: #146EBE;
+}
+.fa-solid.fa-envelope{
+  color: #61BFEB;
+  font-size: 25px;
+}
+
+.fa-solid.fa-location-dot{
+  color: #D12B2F;
+  font-size: 25px;
+}
+
+.second-line{
+  position: relative;
+  top: 49%;
+  text-align: center;
+}
+
+.second-line p{
+ font-weight: 200;
+  font-size: 17px;
+}
+
+.second-line i{
+  font-size: 12px;
+ background-color: whit;
+ position: relative;
+ right: 4px;
+}
+
+@media (max-width: 500px) {
+  .all-page-container{
+    width: 100%;
+  }
+
+  .navbar{
+    width: 100%;
+    background-color: red;
+  }
+
+  .logo{
+    width: 20%;
+  }
+
+  .logo img{
+    width: 100%; 
+  } 
+
+ .items{
+  width: 80%;
+ }
+
+  .items ul li{
+    font-size: 13px;
+    background-color: transparent;
+    margin: 30px 11px;
+  }
+
+.image {
+  width: 100%;
+  height: 600px;
+}
+.text{
+  width: 75%;
+  margin: auto;
+}
+
+.text h1{
+  font-size: 28px;
+}
+
+.text p{
+  font-size: 10px;
+}
+
+#box-font{
+  font-size: 9px;
+  line-height: 15px;
+}
+
+.footer{
+  width: 100%;
+  height: auto;
+}
+
+.textssssss{
+  display: flex;
+  justify-content: space-between;
+}
+
+.textssssss p{
+  background-color: re;
+  font-size: 10px;
+}
+
+.textssssss i{
+  font-size: 15px;
+}
+
+.fa-solid.fa-location-dot{
+  font-size: 15px;
+}
+
+.fa-solid.fa-envelope{
+  font-size: 15px;
+}
+
+.fa-solid.fa-phone{
+  font-size: 15px;
+}
+
+.second-line p{
+  font-size: 13px;
+}
+
+.second-line i{
+  font-size: 8px;
+}
+
+
+}

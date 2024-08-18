@@ -1,0 +1,466 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.all-page-container{
+    width: 100%;
+}
+
+.navbar{
+    width: 100%;
+    height: 120px;
+    display: flex;
+    /* position: fixed;
+    background-color: white; */
+
+}
+
+.logo{
+    width: 50%;
+    background-color: re;
+}
+
+.logo img{
+    width: 20%;
+    height: 75%;
+    margin-top: 10px;
+}
+
+.items ul{
+     display: flex;
+}
+
+.items ul li{
+    list-style: none;
+   margin: 35px 20px;
+   font-family: sans-serif;
+   background-color: blue;
+   border-color: blue;
+   width: 100px;
+   height: 30px;
+   text-align: center;
+   align-content: center;
+}
+
+.items ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+
+.section1-main-image{
+    width: 100%;
+    height: 690px;
+    background-image: url(banner.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+ }
+
+ .section1-main-image{
+    text-align: center;
+    align-content: center;
+    padding-top: 40px;
+ }
+
+/* .section1-main-image img{
+    float: right;
+    width: 150px;
+    
+} */
+
+ .section1-main-image h1{
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 75px;
+    text-shadow: -3px -3px 3px black;
+ }
+
+ .section1-main-image button{
+    margin-top: 30px;
+    width: 155px;
+    height: 30px;
+    background-color: orange;
+    border-color: orange;
+    color: whit;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    cursor: pointer;
+
+ }
+
+.section2prices{
+    width: 100%;
+    padding-top: 100px;
+} 
+
+.one{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+
+.one img{
+   border-radius: 10px;
+   height: 350px;
+   width: 300px;
+}
+
+.texts{
+    align-content: center;
+}
+
+.texts b{
+    color: orange;
+    margin-left: 5px;
+}
+
+.texts h2{
+    font-family:  Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 35px;
+    margin-top: 7px;
+    text-transform: uppercase;
+}
+
+.texts p{
+   margin-top: 15px;
+}
+
+.two{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 50px;
+    flex-wrap: wrap;
+    background-color: re;
+}
+
+
+.two img{
+    border-radius: 10px;
+    height: 380px;
+    width: 300px;
+ }
+
+
+
+ .section3-accessories{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-top: 100px;
+   
+ }
+
+ .box1{
+    width: 25%;
+    box-sizing: border-box;
+    box-shadow: inset -1px -1px 4px black, inset 1px 1px 4px black;
+    padding: 20px;
+    text-align: center;
+ }
+
+ .box1 img{
+    width: 100%;
+  border: 4px double black;
+  border-color: transparent;
+   border-bottom-color: black;
+   border-radius: 10px;
+ }
+
+ .texts{
+    padding-top: 25px;
+ }
+
+ .texts h3{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+    text-align: left;
+ }
+
+ .texts p{
+    margin-top: 18px;
+   font-size: 13px;
+ }
+
+.texts button{
+    margin-top: 35px;
+    width: 150px;
+    height: 27px;
+    background-color: crimson;
+    color: white;
+    border-color: crimson;
+}
+
+.section-4{
+    width: 95%;
+   background-color: whitesmoke;
+    margin: 80px auto;
+    border-radius: 2px;
+}
+
+.section-4 h2{
+    text-align: center;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   font-size: 40px;
+   font-weight: lighter;
+}
+
+.yellow{
+    width: 80%;
+    background-color: #fff;
+    height: ;
+    margin: 150px auto;
+    border: 1px solid orange;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-top: 50px;
+    text-align: center;
+    row-gap: 30px;
+    border-radius: 5px;
+}
+
+.textsss{
+    width: 22%;
+}
+.line{
+    border: 1px solid rgb(34, 33, 33);
+    border-color: transparent;
+    border-bottom-color: rgb(66, 62, 62);
+    width: 45%;
+    margin: 5px auto;
+}
+
+.textsss span{
+    color: black;
+}
+
+.textsss h4{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    line-height: 21px;
+    font-weight: lighter;
+}
+
+.textsss p{
+    margin-top: 10px;
+    text-align: center;
+    font-size: 14px;
+}
+
+
+.footer{
+    width: 100%;
+    height: 100px;
+   background-color: black;
+   color: white;
+   margin-top: 80px;
+   padding-top: 10px;
+  }
+  
+  .textssssss{
+    position: relative;
+    top: 10%;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .textssssss p{
+    color: white;
+    font-weight: 900;
+    background-color: re;
+   margin-right: 10px;
+    padding: 2px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  
+  
+  
+  .fa-solid.fa-phone{
+    font-size: 25px;
+    color: #146EBE;
+  }
+  .fa-solid.fa-envelope{
+    color: #61BFEB;
+    font-size: 25px;
+  }
+  
+  .fa-solid.fa-location-dot{
+    color: #D12B2F;
+    font-size: 25px;
+  }
+  
+  .second-line{
+    position: relative;
+    top: 49%;
+    text-align: center;
+  }
+  
+  .second-line p{
+   font-weight: 200;
+    font-size: 17px;
+  }
+  
+  .second-line i{
+    font-size: 12px;
+   background-color: whit;
+   position: relative;
+   right: 4px;
+  }
+
+
+
+
+@media (max-width: 500px) {
+    .all-page-container{
+        width: 100%;
+        background-color: lack;
+    }
+   .navbar{
+    /* width: 100%; */
+    height: 100px;
+    background-color: red;
+   }
+    
+   .logo{
+    width: 20%;
+    background-color: aliceblue;
+   }
+
+    .logo img{
+     width: 100%; 
+   } 
+  
+  .items{
+    width: 80%;
+  }
+  .items ul li{
+    font-size: 13px;
+    background-color: transparent;
+    margin: 30px 11px;
+  }
+
+  .section1-main-image{
+    width: 100%;
+    height: 500px;
+}
+
+.section1-main-image h1{
+    font-size: 35px;
+}
+
+.section1-main-image button{
+    width: 140px;
+    height: 30px;
+}
+
+.section2prices{
+    width: 100%;
+    padding-top: 100px;
+} 
+
+.one{
+    display: bloc;
+    margin: aut;
+    background-color: yllow;
+    text-align: center;
+    border-bottom: 1px solid black;
+}
+.one img{
+    height: 280px;
+    width: 350px;
+    margin-bottom: 15px;
+}
+
+.texts h2{
+    font-size: 20px;  
+}
+
+.texts p{
+    font-size: 10px;
+    padding-bottom: 30px;
+}
+.two{
+  display: bloc;
+  text-align: center;
+  padding: 15px;
+  background-color: rd;
+  flex-direction: column-reverse;
+}
+
+.two img{
+    width: 350px;
+    height: 280px;
+}
+
+.section3-accessorie{
+    width: 100%;
+    text-align: center;
+}
+
+.box1{
+    width: 80%;
+    margin-top: 15px;
+}
+
+.section-4 h2{
+    font-size: 24px;
+}
+
+.textsss{
+    width: 40%;
+}
+
+.textsss h4{
+    font-size: 13px;
+}
+
+.textsss p{
+    font-size: 12px;
+}
+
+.footer{
+    width: 100%;
+    height: auto;
+}
+
+.textssssss{
+    display: flex;
+    justify-content: space-between;
+}
+
+.textssssss p{
+    background-color: re;
+    font-size: 10px;
+}
+
+.textssssss i{
+    font-size: 15px;
+}
+
+.fa-solid.fa-location-dot{
+    font-size: 15px;
+  }
+
+  .fa-solid.fa-envelope{
+    font-size: 15px;
+  }
+
+  .fa-solid.fa-phone{
+    font-size: 15px;
+}
+
+.second-line p{
+    font-size: 13px;
+}
+
+.second-line i{
+    font-size: 8px;
+}
+
+}
+
+
+

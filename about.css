@@ -1,0 +1,288 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.all-page-container{
+    width: 100%;
+  }
+  
+  .navbar {
+    width: 100%;
+    height: 120px;
+    display: flex;
+    /* position: fixed;
+      background-color: white; */
+  }
+  
+  .logo {
+    width: 50%;
+    background-color: re;
+  }
+  
+  .logo img {
+    width: 20%;
+    height: 75%;
+    margin-top: 10px;
+  }
+  
+  .items ul {
+    display: flex;
+  }
+  
+  .items ul li {
+    list-style: none;
+    margin: 35px 20px;
+    font-family: sans-serif;
+    background-color: blue;
+    border-color: blue;
+    width: 100px;
+    height: 30px;
+    text-align: center;
+    align-content: center;
+  }
+  
+  .items ul li a {
+    text-decoration: none;
+    color: white;
+  }
+
+.imag{
+    width: 100%;
+    height: 565px;
+    background-image: url(https://media.istockphoto.com/id/1244833615/photo/barbershop-working-place-interior-3d-illustration.jpg?s=612x612&w=0&k=20&c=IcF7m2POk-mjAhQv10z5yVToIVqAm_YEBBRZF3KHiPQ=);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.about-section{
+    width: 100%;
+    padding-top: 150px;
+}
+
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: space-evenly;
+}
+
+.text{
+    width: 47%;
+    margin-left: 25px;
+    margin: 70px 0px;
+    box-shadow: inset -1px -1px 3px black, inset 1px 1px 21px white;
+    transition: ease-in-out 5s;
+   &:hover{
+    box-shadow: -2px -2px 3px black;
+   } 
+}
+.text h2{
+    font-size:35px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    letter-spacing: 1px;
+    margin-left: 10px;
+}
+.text p{
+    padding: 10px;
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   font-weight: lighter;
+    font-size: 15px;
+    margin-left: 15px;
+    letter-spacing: 0.7px;
+}
+
+.text3{
+    width: 80%;
+    background-color: lightblu;
+}
+
+.text3 h2{
+    font-size:45px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    letter-spacing: 1px;
+    margin-left: 10px;
+}
+.text3 p{
+    padding: 15px;
+    font-family: sans-serif;
+    font-size: 15px;
+    margin-left: 15px;
+}
+
+.text4{
+    width: 65%;
+    margin: 50px 0px;
+}
+
+.text4 h2{
+    font-size: 35px;
+    margin-left: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.text4 ul{
+    margin-left: 35px;
+    padding: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.text5{
+    width: 50%;
+    height: 100px;
+    margin: auto;
+    padding-top: 70px;
+}
+
+.text5 h4{
+  font-size: 28px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight: lighter;
+}
+
+.footer{
+  width: 100%;
+  height: 100px;
+ background-color: black;
+ color: white;
+ margin-top: 80px;
+ padding-top: 10px;
+}
+
+.textssssss{
+  position: relative;
+  top: 10%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.textssssss p{
+  color: white;
+  font-weight: 900;
+  background-color: re;
+ margin-right: 10px;
+  padding: 2px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+
+.fa-solid.fa-phone{
+  font-size: 25px;
+  color: #146EBE;
+}
+.fa-solid.fa-envelope{
+  color: #61BFEB;
+  font-size: 25px;
+}
+
+.fa-solid.fa-location-dot{
+  color: #D12B2F;
+  font-size: 25px;
+}
+
+.second-line{
+  position: relative;
+  top: 49%;
+  text-align: center;
+}
+
+.second-line p{
+ font-weight: 200;
+  font-size: 17px;
+}
+
+.second-line i{
+  font-size: 12px;
+ background-color: whit;
+ position: relative;
+ right: 4px;
+}
+
+
+
+@media (max-width: 500px) {
+    .all-page-container{
+        width: 100%;
+      }
+    
+      .navbar{
+        width: 100%;
+        background-color: red;
+      }
+    
+      .logo{
+        width: 20%;
+      }
+    
+      .logo img{
+        width: 100%; 
+      } 
+    
+     .items{
+      width: 80%;
+     }
+    
+      .items ul li{
+        font-size: 13px;
+        background-color: transparent;
+        margin: 30px 11px;
+    }
+
+    .text{
+        width: 80%;
+}  
+
+.text4 ul{
+    font-size: 12px;
+}
+
+.text5{
+    width: 80%;
+}
+.text5 h4{
+    font-size: 16px;
+}
+
+.footer{
+  width: 100%;
+  height: auto;
+}
+
+.textssssss{
+  display: flex;
+  justify-content: space-between;
+}
+
+.textssssss p{
+  background-color: re;
+  font-size: 10px;
+}
+
+.textssssss i{
+  font-size: 15px;
+}
+
+.fa-solid.fa-location-dot{
+  font-size: 15px;
+}
+
+.fa-solid.fa-envelope{
+  font-size: 15px;
+}
+
+.fa-solid.fa-phone{
+  font-size: 15px;
+}
+
+.second-line p{
+  font-size: 13px;
+}
+
+.second-line i{
+  font-size: 8px;
+}
+
+
+}
