@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="login.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <script src="https://kit.fontawesome.com/7e4bb5f098.js" crossorigin="anonymous"></script>
 </head>
 <body>
@@ -25,9 +26,10 @@
           </div>
         </nav>
 
-        <div class="maindiv">
+        <div class="maindiv" data-aos="flip-right" >
+          <div class="border">
             <div class="upertext">
-                <h2>BABA Saloon</h2>
+                <h2 data-aos="flip-right">BABA Saloon</h2>
                 <h3>LOGIN FOR BABA SALOON</h3>
                 <div class="down-text">
                   <div class="input1"> <input type="email" placeholder="Email" size="px"></div>
@@ -43,7 +45,8 @@
                         <button>LOGIN</button>
                         <p>Not have an account? <span>SIGN UP</span></p>
                     </div>
-                </div>
+          
+          </div>        </div>
             </div>
         </div>
 
@@ -57,6 +60,10 @@
            <p><i class="fa-solid fa-copyright"></i>Created by Moiz ahmed</p>
           </div>
        </div>
-   </div>     
+   </div>
+   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>  
 </body>
 </html>

@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <script src="https://kit.fontawesome.com/7e4bb5f098.js" crossorigin="anonymous"></script>
 </head>
 <body>
@@ -27,14 +28,16 @@
             </nav>
     
             <div class="section1-main-image">
-                <h1>THE BEST SALOON <br> FOR MEN</h1>
+                <h1 data-aos="zoom-in">THE BEST SALOON <br> FOR MEN</h1>
                 <button>Booking Now:</button>
             </div> 
 
             <div class="section2prices">
 
                 <div class="one">
-                    <img src="https://t4.ftcdn.net/jpg/02/39/85/07/240_F_239850786_qwuTy5ufNCCqsjSpH9LTNmxo5C0YCBes.jpg" alt="">
+                    <img  data-aos="flip-left"
+                    data-aos-easing="ease-out-cubic"
+                    data-aos-duration="2000" src="https://t4.ftcdn.net/jpg/02/39/85/07/240_F_239850786_qwuTy5ufNCCqsjSpH9LTNmxo5C0YCBes.jpg" alt="">
                     <div class="texts">
                     <b> HAIR CUTTING & STYLING</b>
                     <h2>EXPERT HAIR STYLING SERVICES <br> FOR MEN</br></h2>
@@ -48,39 +51,44 @@
                  <h2> Profesinal Beard Styling</h2>
                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.  Repellat reiciendis sequi blanditiis <br> expedita recusandae quidem facere consequatur inventore illo atque.</p>
                      </div>
-                     <img src="https://t3.ftcdn.net/jpg/05/21/91/00/240_F_521910050_tVIO4DW7vTWHNkY0wwlVwvQcT204akBd.jpg" alt="">
+                     <img  data-aos="flip-left"
+                     data-aos-easing="ease-out-cubic"
+                     data-aos-duration="2000" src="https://t3.ftcdn.net/jpg/05/21/91/00/240_F_521910050_tVIO4DW7vTWHNkY0wwlVwvQcT204akBd.jpg" alt="">
                 </div>
             </div>
 
                <div class="section3-accessories">
 
-                   <div class="box1">
+                   <div class="box1" data-aos="fade-up"
+                   data-aos-anchor-placement="top-center">
                     
                         <img src="hair.png"  height="250px" alt="">
                    
-                    <div class="texts">
+                    <div class="tex">
                         <h3>Hair dressing Tools</h3>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi commodi eius vero cupiditate recusandae, iusto eaque enim natus? Hic, odio.</p>
                           <button>Book Now:</button>
                     </div>
                    </div>
 
-                   <div class="box1">
+                   <div class="box1" data-aos="fade-up"
+                   data-aos-anchor-placement="top-center">
                    
                         <img src="mashine.png" height="250px" alt="">
                    
-                   <div class="texts">
+                   <div class="tex">
                        <h3>Mashines in use</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos facilis nemo suscipit aut vitae debitis eveniet quam perspiciatis vel. Odio.</p>
+                . <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veritatis, asperiores. Impedit vel fuga odit placeat fugit provident voluptate quaerat sed?</p>
                      <button>Book Now:</button>   
                 </div>
                   </div>
 
-                  <div class="box1">
+                  <div class="box1" data-aos="fade-up"
+                  data-aos-anchor-placement="top-center">
                     
                         <img src="vintage.png" height="250px"  alt="">
                    
-                   <div class="texts">
+                   <div class="tex">
                        <h3>Vintage Tools</h3>
                       <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veritatis, asperiores. Impedit vel fuga odit placeat fugit provident voluptate quaerat sed?</p>
                          <button>Book NOw:</button>     
@@ -250,5 +258,9 @@
                 </div>
              </div>
     </div>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
 </body>
 </html>

@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="contact.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <script src="https://kit.fontawesome.com/7e4bb5f098.js" crossorigin="anonymous"></script>
   </head>
   <body>
@@ -32,7 +33,7 @@
       </div>
     </div>
 
-    <div class="section2">
+    <div class="section2"  data-aos="fade-down"data-aos-easing="linear"data-aos-duration="1500">
       <div class="one">
         <div class="box1">
           <b> Date</b>
@@ -61,16 +62,16 @@
 
     <div class="section3">
       <div class="textss">
-        <h2>DON'T MISS A POST</h2>
+        <h2  data-aos="zoom-in">DON'T MISS A POST</h2>
         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ex enim modi qui obcaecati <br> consequuntur autem expedita, at perferendis quisquam odio alias eligendi mollitia <br> dolore vitae tempora exercitationem? Mollitia, pariatur vero.</p>
       </div>
-      <div class="in">
+      <div class="in" data-aos="flip-right">
         <input type="email" size="35px" placeholder="Email"> <br>
         <button>SUBSCRIBE</button>
       </div>
     </div>
 
-    <div class="map">
+    <div class="map" data-aos="fade-up">
       <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3619.7410916016975!2d67.01119892299174!3d24.872690867940655!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb33f187115eafd%3A0x86814a43c7b536a2!2sMarhaba%20Appartment%2C%20Orange%20street%2C%20Shoe%20Market%2C%20Karachi%2C%20Pakistan!5e0!3m2!1sen!2s!4v1723996983179!5m2!1sen!2s" width="420" height="280" style="border:0" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
     </div>
 
@@ -86,5 +87,9 @@
     </div>
 
 </div>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+  </script>
 </body>
 </html>
