@@ -15,13 +15,16 @@
     width: 100%;
     display: flex;
     justify-content: space-between;
+    align-items: center;
     position: fixed;
     z-index: 1;
+    box-shadow: -2px -1px 2px 3px #2e4053;
+    backdrop-filter: blur(2px);
 }
 
 
 .logo img{
-  width: 100px;
+  width: 90px;
 }
 
 .items ul{
@@ -37,6 +40,7 @@
    border-color: #2e4053;
    box-shadow: inset -1px -1px 5px black;
    background-color: #2e4053;
+   /* background-color: #003b6e; */
    border-radius: 10px;
    text-align: center;
    align-content: center;
@@ -46,7 +50,7 @@
 
 .items ul li a{
     text-decoration: none;
-    color: white;
+    color:white;
     font-weight: 500;
 }
 
@@ -58,7 +62,7 @@
 }
 
 .items ul li a:hover{
-    color: black;
+    color: white;
 }
 
 
@@ -85,6 +89,7 @@
     line-height: 70px;
     filter: drop-shadow(-2px -2px 5px black);
     color: #2cea7b;
+    text-shadow: 0px 0px 2px black;
     font-family: "Pacifico", cursive;
     font-weight: 400;
     letter-spacing: 2px;
@@ -168,12 +173,16 @@
  }
 
  .box1{
-    width: 25%;
+    width: 24%;
     box-sizing: border-box;
-    box-shadow: inset -1px -1px 4px black, inset 1px 1px 2px black;
+    box-shadow: inset -1px -1px 4px rgb(226, 223, 223), inset 1px 1px 2px rgb(200, 199, 199);
     padding: px;
     text-align: center;
     border-radius: 10px;
+ }
+ .box1 img:hover{
+    transform: scale(1.1);
+    transition: 0.8s ease-in;
  }
 
  .box1 img{
@@ -213,6 +222,8 @@
    background-color: whitesmoke;
     margin: 80px auto;
     border-radius: 2px;
+    padding-top: 25px;
+   padding-bottom: 110px;
 }
 
 .section-4 h2{
@@ -225,8 +236,7 @@
 .yellow{
     width: 80%;
     background-color: #fff;
-    height: ;
-    margin: 150px auto;
+    margin:  70px  auto 0 auto;
     border: 1px solid orange;
     display: flex;
     flex-wrap: wrap;
@@ -235,6 +245,7 @@
     text-align: center;
     row-gap: 30px;
     border-radius: 5px;
+    padding-bottom: 25px;
 }
 
 .textsss{
@@ -323,7 +334,15 @@
    position: relative;
    right: 4px;
   }
-
+.tex button{
+    margin-top: 15px;
+    padding: 10px 49px;
+    border: none;
+   color: white;
+   background-color: #006bc9;
+    border-radius: 2px;
+    text-align: left;
+}
 
 
 
